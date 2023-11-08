@@ -72,3 +72,25 @@ const restaurantData = [
     image: "images/9.jpg",
   },
 ];
+
+function displayRestaurantCards() {
+  const restaurantList = document.getElementById("restaurant_list");
+
+  restaurantData.map((data, i)=> {
+    const detailCard = document.createElement("div")
+    const imageDiv = document.createElement("img")
+    const nameDiv = document.createElement("div")
+    const starDiv = document.createElement("div")
+    const nameStarDiv = document.createElement("div")
+    const textDiv = document.createElement("div")
+    const rtextDiv = document.createElement("div")
+    const infoTextDiv = document.createElement("div")
+    const infoDiv = document.createElement("div")
+    const safetyDiv = document.createElement("div")
+    const safetyTextDiv = document.createElement("div")
+    const safetyImg = document.createElement("img")
+    const combinedData = document.createDocumentFragment();
+    detailCard.appendChild(combinedData);
+    restaurantList.appendChild(detailCard)
+  })
+}
