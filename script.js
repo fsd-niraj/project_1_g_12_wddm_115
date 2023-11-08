@@ -121,9 +121,18 @@ function displayRestaurantCards() {
     const safetyImg = document.createElement("img")
     safetyImg.src = "images/safety.png"
     safetyDiv.appendChild(safetyImg)
-    
+
     const combinedData = document.createDocumentFragment();
+    combinedData.appendChild(imageDiv)
+    combinedData.appendChild(nameStarDiv)
+    combinedData.appendChild(infoTextDiv)
+    combinedData.appendChild(safetyTextDiv)
+
     detailCard.appendChild(combinedData);
     restaurantList.appendChild(detailCard)
   })
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  displayRestaurantCards();
+});
