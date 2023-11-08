@@ -151,3 +151,231 @@ body {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
 }
+@media screen and (max-width:1304px) {
+    .card {
+        height: 370px;
+        width: 31%;
+        /* border: 1px solid black; */
+        margin-left: 2.3%;
+        float: left;
+        margin-top: 3%;
+        /* border-radius: 10%; */
+    }
+}
+
+@media screen and (max-width:1262px) {
+    .card {
+        height: 370px;
+        width: 32%;
+        /* border: 1px solid black; */
+        margin-left: 1.3%;
+        float: left;
+        margin-top: 3%;
+        /* border-radius: 10%; */
+    }
+}
+
+@media screen and (max-width:1222px) {
+    .card {
+        height: 370px;
+        width: 33%;
+        /* border: 1px solid black; */
+        margin-left: 0.3%;
+        float: left;
+        margin-top: 3%;
+        /* border-radius: 10%; */
+    }
+}
+
+@media screen and (max-width:1186px) {
+    .card {
+        height: 370px;
+        width: 33%;
+        /* border: 1px solid black; */
+        margin-left: 0.3%;
+        float: left;
+        margin-top: 3%;
+        /* border-radius: 10%; */
+    }
+}
+
+@media screen and (max-width:1184px) {
+    .card {
+        height: 370px;
+        width: 39%;
+        /* border: 1px solid black; */
+        margin-left: 10%;
+        float: left;
+        margin-top: 3%;
+        /* border-radius: 10%; */
+    }
+}
+
+@media screen and (max-width:1006px) {
+    .card {
+        height: 370px;
+        width: 40%;
+        /* border: 1px solid black; */
+        margin-left: 8%;
+        float: left;
+        margin-top: 3%;
+        /* border-radius: 10%; */
+    }
+}
+
+@media screen and (max-width:979px) {
+    .card {
+        height: 370px;
+        width: 42%;
+        /* border: 1px solid black; */
+        margin-left: 8%;
+        float: left;
+        margin-top: 3%;
+        /* border-radius: 10%; */
+    }
+}
+
+@media screen and (max-width:936px) {
+    .card {
+        height: 370px;
+        width: 43%;
+        /* border: 1px solid black; */
+        margin-left: 6%;
+        float: left;
+        margin-top: 3%;
+        /* border-radius: 10%; */
+    }
+}
+
+@media screen and (max-width:914px) {
+    .card {
+        height: 370px;
+        width: 44%;
+        /* border: 1px solid black; */
+        margin-left: 4%;
+        float: left;
+        margin-top: 3%;
+        /* border-radius: 10%; */
+    }
+}
+
+@media screen and (max-width:856px) {
+    .card {
+        height: 370px;
+        width: 47%;
+        /* border: 1px solid black; */
+        margin-left: 2%;
+        float: left;
+        margin-top: 3%;
+        /* border-radius: 10%; */
+    }
+}
+
+@media screen and (max-width:830px) {
+    .card {
+        height: 370px;
+        width: 56%;
+        /* border: 1px solid black; */
+        margin-left: 26%;
+        float: left;
+        margin-top: 3%;
+        /* border-radius: 10%; */
+    }
+}
+
+@media screen and (max-width:639px) {
+    .card {
+        height: 370px;
+        width: 70%;
+        /* border: 1px solid black; */
+        margin-left: 18%;
+        float: left;
+        margin-top: 3%;
+        /* border-radius: 10%; */
+    }
+}
+
+@media screen and (max-width:500px) {
+    .card {
+        height: 370px;
+        width: 87%;
+        /* border: 1px solid black; */
+        margin-left: 10%;
+        float: left;
+        margin-top: 3%;
+        /* border-radius: 10%; */
+    }
+
+    #logo>img {
+        height: 32px;
+        width: 21%;
+        margin-left: 13%;
+        margin-top: 0.85%;
+    }
+}
+
+@media screen and (max-width:510px) {
+    .card {
+        height: 370px;
+        width: 86%;
+        /* border: 1px solid black; */
+        margin-left: 10%;
+        float: left;
+        margin-top: 3%;
+        /* border-radius: 10%; */
+    }
+
+    #logo>img {
+        height: 32px;
+        width: 23%;
+        margin-left: 13%;
+        margin-top: 0.85%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 3%;
+    }
+
+    .name {
+        font-size: 18px;
+    }
+
+    .star {
+        width: 10%;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    .rtext {
+        font-size: 14px;
+    }
+
+    .info {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .select {
+        margin-left: 0;
+    }
+
+    .filters {
+        margin-left: 0;
+    }
+
+    .restro {
+        font-size: 24px;
+    }
+
+    #logo>img {
+        height: 28px;
+        width: 25%;
+    }
+}
