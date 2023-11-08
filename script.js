@@ -78,9 +78,18 @@ function displayRestaurantCards() {
 
   restaurantData.map((data, i)=> {
     const detailCard = document.createElement("div")
+    detailCard.classList.add('card', 'animate-up')
+    detailCard.id = i
     const imageDiv = document.createElement("img")
+    imageDiv.src = data.image
+    imageDiv.alt = data.name
     const nameDiv = document.createElement("div")
+    nameDiv.classList.add('name')
+    nameDiv.textContent = data.name
     const starDiv = document.createElement("div")
+    starDiv.classList.add('star')
+    starDiv.textContent = data.star
+    
     const nameStarDiv = document.createElement("div")
     const textDiv = document.createElement("div")
     const rtextDiv = document.createElement("div")
