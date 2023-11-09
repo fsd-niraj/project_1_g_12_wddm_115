@@ -136,3 +136,174 @@ body{
     text-decoration: none;
     color: black;
 }
+@media screen and (max-width:1256px){
+}
+@media screen and (max-width:1032px){
+    .dropleft {
+        height: 40px;
+        width: 40%;
+        text-align: center;
+        font-size: 18px;
+    }
+    .dropright{
+        height: 40px;
+        width: 58%;
+        text-align: center;
+        font-size: 18px;
+    }
+    .right > a {
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+        margin-left: 4%;
+    }
+
+}
+@media screen and (max-width: 838px){
+    .dropleft{
+        height: 40px;
+        width: 40%;
+        text-align: center;
+        font-size: 14px;
+    }
+    .dropright{
+        height: 40px;
+        width: 58%;
+        text-align: center;
+        font-size: 14px;
+    }
+    .right > a {
+        color: white;
+        text-decoration: none;
+        font-size: 12px;
+        margin-left: 4%;
+    }
+
+}
+@media screen and (max-width: 719px){
+    .dropleft{
+        height: 30px;
+        width: 40%;
+        text-align: center;
+        font-size: 10px;
+    }
+    .dropright{
+        height: 30px;
+        width: 58%;
+        text-align: center;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 650px){
+    .dropleft{
+        height: 30px;
+        width: 40%;
+        text-align: center;
+        font-size: 10px;
+    }
+    .dropright{
+        height: 30px;
+        width: 58%;
+        text-align: center;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 610px) {
+    .right > a {
+        color: white;
+        text-decoration: none;
+        font-size: 10px;
+        margin-left: 2%;
+    }
+}
+@media screen and (max-width:538px){
+    .dropleft{
+        height: 30px;
+        width: 40%;
+        text-align: center;
+        font-size: 10px;
+    }
+    .dropright{
+        height: 30px;
+        width: 58%;
+        text-align: center;
+        font-size: 10px;
+    }
+    .right > a {
+        color: white;
+        text-decoration: none;
+        font-size: 10px;
+        margin-left: 2%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .heading {
+        height: 300px;
+    }
+    .right > a {
+        font-size: 10px;
+        margin-left: 2%;
+    }
+    .select {
+        height: 40px;
+        width: 70%;
+        margin-left: 15%;
+    }
+    .dropleft,
+    .dropright {
+        height: 30px;
+        font-size: 10px;
+    }
+    .cardtop,
+    .card1,
+    .card2,
+    .card3,
+    .card4 {
+        margin-top: 5%;
+        margin-bottom: 10%;
+        height: 200px;
+    }
+    .card1 > p,
+    .card2 > p,
+    .card3 > p,
+    .card4 > p {
+        font-size: 10px;
+        margin-top: 60%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .heading {
+        height: 250px;
+    }
+    .right > a {
+        font-size: 8px;
+        margin-left: 2%;
+    }
+    .select {
+        height: 40px;
+        width: 70%;
+        margin-left: 15%;
+    }
+    .dropleft,
+    .dropright {
+        height: 30px;
+        font-size: 10px;
+    }
+    .cardtop,
+    .card1,
+    .card2,
+    .card3,
+    .card4 {
+        margin-top: 5%;
+        margin-bottom: 10%;
+        height: 150px;
+    }
+    .card1 > p,
+    .card2 > p,
+    .card3 > p,
+    .card4 > p {
+        font-size: 8px;
+        margin-top: 50%;
+    }
+}
