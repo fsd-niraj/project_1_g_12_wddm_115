@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Kaushan+Script&family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --Inter: 'Inter', sans-serif;
+    --Kaushan: 'Kaushan Script', cursive;
+    --Mont: 'Montserrat', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.5;
+    font-family: var(--Mont);
+    background-color: #b52626;
+    color: #fff;
+}
+/* Navbar styles */
+header {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.logo img {
+    height: 40px; /* Adjust the size as needed */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+
+.nav-links li a:hover {
+    color: #ff9505;
+    background-color: #f5f5f5;
+}
+
+/* Animation */
+.navbar {
+    animation: slideDown 0.5s ease;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
