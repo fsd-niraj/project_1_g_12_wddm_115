@@ -4,13 +4,11 @@ function displayRestaurantCards() {
   .then(response => {
     return response.json();
   }).then((jsonData) => {
-    const allData = jsonData.jsonData.details
-    console.log("sdsdhf", allData)
+    const allData = jsonData.jsonData.details;
 
       const restaurantList = document.getElementById("restaurant_list");
 
       allData.map((data, i) => {
-        console.log("my data", data)
         const detailCard = document.createElement("div")
         detailCard.classList.add('card', 'animate-up')
         detailCard.id = i
