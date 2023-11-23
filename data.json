@@ -1,182 +1,194 @@
 {
-  "jsonData": {
-    "details": [
-      {
-        "name": "Mama Mia's Italian Kitchen",
-        "star": "4.5",
-        "cuisine": "Italian, Pasta, Fine Dining",
-        "cost": "CA$14.99 for one",
-        "info": "4500+ orders are placed from here",
-        "image": "images/1.jpg"
-      },
-      {
-        "name": "Pasta Palace",
-        "star": "4.2",
-        "cuisine": "Italian, Pasta, Vegetarian",
-        "cost": "CA$11.99 for one",
-        "info": "3800+ orders are placed from here",
-        "image": "images/2.jpg"
-      },
-      {
-        "name": "Pizza Paradise",
-        "star": "4.3",
-        "cuisine": "Italian, Pizza, Fast Food",
-        "cost": "CA$10.99 for one",
-        "info": "5000+ orders are placed from here",
-        "image": "images/3.jpg"
-      },
-      {
-        "name": "Gourmet Pizzeria",
-        "star": "4.4",
-        "cuisine": "Italian, Pizza, Gourmet",
-        "cost": "CA$12.99 for one",
-        "info": "4200+ orders are placed from here",
-        "image": "images/4.jpg"
-      },
-      {
-        "name": "Big City Slices",
-        "star": "4.1",
-        "cuisine": "Italian, Pizza, Fast Food",
-        "cost": "CA$9.99 for one",
-        "info": "3600+ orders are placed from here",
-        "image": "images/5.jpg"
-      },
-      {
-        "name": "Ristorante Italiano",
-        "star": "4.6",
-        "cuisine": "Italian, Fine Dining, Pasta",
-        "cost": "CA$16.99 for one",
-        "info": "5200+ orders are placed from here",
-        "image": "images/6.jpg"
-      },
-      {
-        "name": "Globetrotter Pizzas",
-        "star": "4.2",
-        "cuisine": "Italian, Pizza, World Cuisine",
-        "cost": "CA$11.99 for one",
-        "info": "3900+ orders are placed from here",
-        "image": "images/7.jpg"
-      },
-      {
-        "name": "Pizza Planet & Shakes",
-        "star": "4.4",
-        "cuisine": "Italian, Pizza, Desserts",
-        "cost": "CA$12.99 for one",
-        "info": "4300+ orders are placed from here",
-        "image": "images/8.jpg"
-      },
-      {
-        "name": "Tony's Pizzeria",
-        "star": "4.3",
-        "cuisine": "Italian, Pizza, Fast Food",
-        "cost": "CA$10.99 for one",
-        "info": "4700+ orders are placed from here",
-        "image": "images/9.jpg"
-      },
-      {
-        "name": "Nonna's Trattoria",
-        "star": "4.7",
-        "cuisine": "Italian, Authentic, Family-style",
-        "cost": "CA$18.99 for one",
-        "info": "3800+ orders are placed from here",
-        "image": "https://t3.ftcdn.net/jpg/03/24/73/92/360_F_324739203_keeq8udvv0P2h1MLYJ0GLSlTBagoXS48.jpg"
-      },
-      {
-        "name": "Vesuvio's Pizzeria",
-        "star": "4.5",
-        "cuisine": "Italian, Pizza, Wood-Fired",
-        "cost": "CA$14.99 for one",
-        "info": "4200+ orders are placed from here",
-        "image": "https://plus.unsplash.com/premium_photo-1670984940113-f3aa1cd1309a?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdGF1cmFudHN8ZW58MHx8MHx8fDA%3D"
-      },
-      {
-        "name": "La Dolce Vita Ristorante",
-        "star": "4.8",
-        "cuisine": "Italian, Fine Dining, Seafood",
-        "cost": "CA$24.99 for one",
-        "info": "3100+ orders are placed from here",
-        "image": "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTY2MTU3Ny13aWtpbWVkaWEtaW1hZ2Uta293YXBlZWouanBn.jpg"
-      },
-      {
-        "name": "Mamma Lucia's Trattoria",
-        "star": "4.6",
-        "cuisine": "Italian, Homestyle, Pasta",
-        "cost": "CA$16.99 for one",
-        "info": "4500+ orders are placed from here",
-        "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdGF1cmFudHN8ZW58MHx8MHx8fDA%3D"
-      },
-      {
-        "name": "Rustico Ristorante",
-        "star": "4.4",
-        "cuisine": "Italian, Rustic, Pizza",
-        "cost": "CA$12.99 for one",
-        "info": "3700+ orders are placed from here",
-        "image": "https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?cs=srgb&dl=pexels-chan-walrus-941861.jpg&fm=jpg"
-      },
-      {
-        "name": "Piazza Italia",
-        "star": "4.3",
-        "cuisine": "Italian, Pizza, Traditional",
-        "cost": "CA$11.99 for one",
-        "info": "4200+ orders are placed from here",
-        "image": "https://thumbs.dreamstime.com/b/cozy-restaurant-tables-ready-dinner-39875776.jpg"
-      },
-      {
-        "name": "Giovanni's Cucina",
-        "star": "4.7",
-        "cuisine": "Italian, Family Recipes, Pasta",
-        "cost": "CA$19.99 for one",
-        "info": "3900+ orders are placed from here",
-        "image": "https://thumbs.dreamstime.com/b/cozy-restaurant-tables-ready-dinner-39875776.jpg"
-      },
-      {
-        "name": "Buona Terra Trattoria",
-        "star": "4.5",
-        "cuisine": "Italian, Organic, Farm-to-Table",
-        "cost": "CA$17.99 for one",
-        "info": "3200+ orders are placed from here",
-        "image": "https://techcrunch.com/wp-content/uploads/2015/08/shutterstock_237882754.jpg"
-      },
-      {
-        "name": "Amalfi Coast Pizzeria",
-        "star": "4.4",
-        "cuisine": "Italian, Pizza, Coastal",
-        "cost": "CA$13.99 for one",
-        "info": "4300+ orders are placed from here",
-        "image": "https://techcrunch.com/wp-content/uploads/2015/08/shutterstock_237882754.jpg"
-      },
-      {
-        "name": "Trattoria Romana",
-        "star": "4.6",
-        "cuisine": "Italian, Roman Cuisine, Pasta",
-        "cost": "CA$15.99 for one",
-        "info": "4800+ orders are placed from here",
-        "image": "https://techcrunch.com/wp-content/uploads/2015/08/shutterstock_237882754.jpg"
-      },
-      {
-        "name": "Bella Napoli Pizzeria",
-        "star": "4.2",
-        "cuisine": "Italian, Pizza, Traditional",
-        "cost": "CA$10.99 for one",
-        "info": "3700+ orders are placed from here",
-        "image": "https://techcrunch.com/wp-content/uploads/2015/08/shutterstock_237882754.jpg"
-      },
-      {
-        "name": "Sapore Italiano",
-        "star": "4.8",
-        "cuisine": "Italian, Authentic, Chef's Specials",
-        "cost": "CA$21.99 for one",
-        "info": "2900+ orders are placed from here",
-        "image": "https://techcrunch.com/wp-content/uploads/2015/08/shutterstock_237882754.jpg"
-      },
-      {
-        "name": "Cucina Felice",
-        "star": "4.3",
-        "cuisine": "Italian, Comfort Food, Pasta",
-        "cost": "CA$11.99 for one",
-        "info": "4100+ orders are placed from here",
-        "image": "https://techcrunch.com/wp-content/uploads/2015/08/shutterstock_237882754.jpg"
+  "data": [
+    {
+      "details": {
+        "title": "Fine Dine Restaurants",
+        "details": [
+          {
+            "name": "Nonna's Trattoria",
+            "star": "4.7",
+            "cuisine": "Italian, Authentic, Family-style",
+            "cost": "CA$18.99 for one",
+            "info": "3800+ orders are placed from here",
+            "image": "https://t3.ftcdn.net/jpg/03/24/73/92/360_F_324739203_keeq8udvv0P2h1MLYJ0GLSlTBagoXS48.jpg"
+          },
+          {
+            "name": "Vesuvio's Pizzeria",
+            "star": "4.5",
+            "cuisine": "Italian, Pizza, Wood-Fired",
+            "cost": "CA$14.99 for one",
+            "info": "4200+ orders are placed from here",
+            "image": "https://plus.unsplash.com/premium_photo-1670984940113-f3aa1cd1309a?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdGF1cmFudHN8ZW58MHx8MHx8fDA%3D"
+          },
+          {
+            "name": "La Dolce Vita Ristorante",
+            "star": "4.8",
+            "cuisine": "Italian, Fine Dining, Seafood",
+            "cost": "CA$24.99 for one",
+            "info": "3100+ orders are placed from here",
+            "image": "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTY2MTU3Ny13aWtpbWVkaWEtaW1hZ2Uta293YXBlZWouanBn.jpg"
+          },
+          {
+            "name": "Mamma Lucia's Trattoria",
+            "star": "4.6",
+            "cuisine": "Italian, Homestyle, Pasta",
+            "cost": "CA$16.99 for one",
+            "info": "4500+ orders are placed from here",
+            "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdGF1cmFudHN8ZW58MHx8MHx8fDA%3D"
+          },
+          {
+            "name": "Rustico Ristorante",
+            "star": "4.4",
+            "cuisine": "Italian, Rustic, Pizza",
+            "cost": "CA$12.99 for one",
+            "info": "3700+ orders are placed from here",
+            "image": "https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?cs=srgb&dl=pexels-chan-walrus-941861.jpg&fm=jpg"
+          },
+          {
+            "name": "Piazza Italia",
+            "star": "4.3",
+            "cuisine": "Italian, Pizza, Traditional",
+            "cost": "CA$11.99 for one",
+            "info": "4200+ orders are placed from here",
+            "image": "https://thumbs.dreamstime.com/b/cozy-restaurant-tables-ready-dinner-39875776.jpg"
+          },
+          {
+            "name": "Giovanni's Cucina",
+            "star": "4.7",
+            "cuisine": "Italian, Family Recipes, Pasta",
+            "cost": "CA$19.99 for one",
+            "info": "3900+ orders are placed from here",
+            "image": "https://thumbs.dreamstime.com/b/cozy-restaurant-tables-ready-dinner-39875776.jpg"
+          },
+          {
+            "name": "Buona Terra Trattoria",
+            "star": "4.5",
+            "cuisine": "Italian, Organic, Farm-to-Table",
+            "cost": "CA$17.99 for one",
+            "info": "3200+ orders are placed from here",
+            "image": "https://techcrunch.com/wp-content/uploads/2015/08/shutterstock_237882754.jpg"
+          },
+          {
+            "name": "Amalfi Coast Pizzeria",
+            "star": "4.4",
+            "cuisine": "Italian, Pizza, Coastal",
+            "cost": "CA$13.99 for one",
+            "info": "4300+ orders are placed from here",
+            "image": "https://techcrunch.com/wp-content/uploads/2015/08/shutterstock_237882754.jpg"
+          },
+          {
+            "name": "Trattoria Romana",
+            "star": "4.6",
+            "cuisine": "Italian, Roman Cuisine, Pasta",
+            "cost": "CA$15.99 for one",
+            "info": "4800+ orders are placed from here",
+            "image": "https://techcrunch.com/wp-content/uploads/2015/08/shutterstock_237882754.jpg"
+          },
+          {
+            "name": "Bella Napoli Pizzeria",
+            "star": "4.2",
+            "cuisine": "Italian, Pizza, Traditional",
+            "cost": "CA$10.99 for one",
+            "info": "3700+ orders are placed from here",
+            "image": "https://techcrunch.com/wp-content/uploads/2015/08/shutterstock_237882754.jpg"
+          },
+          {
+            "name": "Sapore Italiano",
+            "star": "4.8",
+            "cuisine": "Italian, Authentic, Chef's Specials",
+            "cost": "CA$21.99 for one",
+            "info": "2900+ orders are placed from here",
+            "image": "https://techcrunch.com/wp-content/uploads/2015/08/shutterstock_237882754.jpg"
+          },
+          {
+            "name": "Cucina Felice",
+            "star": "4.3",
+            "cuisine": "Italian, Comfort Food, Pasta",
+            "cost": "CA$11.99 for one",
+            "info": "4100+ orders are placed from here",
+            "image": "https://techcrunch.com/wp-content/uploads/2015/08/shutterstock_237882754.jpg"
+          }
+        ]
       }
-    ]
-  }
+    },
+    {
+      "details": {
+        "title": "Fast Food Services",
+        "details": [
+          {
+            "name": "Mama Mia's Italian Kitchen",
+            "star": "4.5",
+            "cuisine": "Italian, Pasta, Fine Dining",
+            "cost": "CA$14.99 for one",
+            "info": "4500+ orders are placed from here",
+            "image": "images/1.jpg"
+          },
+          {
+            "name": "Pasta Palace",
+            "star": "4.2",
+            "cuisine": "Italian, Pasta, Vegetarian",
+            "cost": "CA$11.99 for one",
+            "info": "3800+ orders are placed from here",
+            "image": "images/2.jpg"
+          },
+          {
+            "name": "Pizza Paradise",
+            "star": "4.3",
+            "cuisine": "Italian, Pizza, Fast Food",
+            "cost": "CA$10.99 for one",
+            "info": "5000+ orders are placed from here",
+            "image": "images/3.jpg"
+          },
+          {
+            "name": "Gourmet Pizzeria",
+            "star": "4.4",
+            "cuisine": "Italian, Pizza, Gourmet",
+            "cost": "CA$12.99 for one",
+            "info": "4200+ orders are placed from here",
+            "image": "images/4.jpg"
+          },
+          {
+            "name": "Big City Slices",
+            "star": "4.1",
+            "cuisine": "Italian, Pizza, Fast Food",
+            "cost": "CA$9.99 for one",
+            "info": "3600+ orders are placed from here",
+            "image": "images/5.jpg"
+          },
+          {
+            "name": "Ristorante Italiano",
+            "star": "4.6",
+            "cuisine": "Italian, Fine Dining, Pasta",
+            "cost": "CA$16.99 for one",
+            "info": "5200+ orders are placed from here",
+            "image": "images/6.jpg"
+          },
+          {
+            "name": "Globetrotter Pizzas",
+            "star": "4.2",
+            "cuisine": "Italian, Pizza, World Cuisine",
+            "cost": "CA$11.99 for one",
+            "info": "3900+ orders are placed from here",
+            "image": "images/7.jpg"
+          },
+          {
+            "name": "Pizza Planet & Shakes",
+            "star": "4.4",
+            "cuisine": "Italian, Pizza, Desserts",
+            "cost": "CA$12.99 for one",
+            "info": "4300+ orders are placed from here",
+            "image": "images/8.jpg"
+          },
+          {
+            "name": "Tony's Pizzeria",
+            "star": "4.3",
+            "cuisine": "Italian, Pizza, Fast Food",
+            "cost": "CA$10.99 for one",
+            "info": "4700+ orders are placed from here",
+            "image": "images/9.jpg"
+          }
+        ]
+      }
+    }
+  ]
 }
