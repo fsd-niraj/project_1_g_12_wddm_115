@@ -5,20 +5,19 @@ function displayRestaurantCards() {
       return response.json();
     }).then((jsonData) => {
       const allData = jsonData.data;
-      
+
       allData.map((data) => {
-        data.details.details.map((v)=> {
-          displayCard(v)
+        return data.details.details.map((v) => {
+          displayCard(v);
         })
       })
-    })
+    });
 }
 
 function displayCard(data) {
   const restaurantList = document.getElementById("restaurant_list");
   const detailCard = document.createElement("div")
   detailCard.classList.add('card', 'animate-up')
-  // detailCard.id = i
   const imageDiv = document.createElement("img")
   imageDiv.src = data.image
   imageDiv.alt = data.name
@@ -69,6 +68,16 @@ function displayCard(data) {
 
   detailCard.appendChild(combinedData);
   return restaurantList.appendChild(detailCard);
+}
+
+function displayTitle(title) {
+  const mainDiv = document.getElementById("main")
+
+  const titleSection = document.createElement('div')
+  titleSection.classList.add = "restrro";
+  titleSection.textContent = title;
+
+  mainDiv.appendChild(titleSection)
 }
 
 document.addEventListener("DOMContentLoaded", function () {
