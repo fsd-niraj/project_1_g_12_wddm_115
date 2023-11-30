@@ -1,86 +1,134 @@
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Zomato Homepage</title>
-        <link rel="stylesheet" href="index.css">
-        <script src="index.js"></script>
-        <link rel="icon" href="images/Zomato_logo.png"/>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato Homepage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <!-- Bootstrap bundle for JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
 <body>
-    <h1>Welcome to Zomato</h1>
     <header>
-        <div class="heading">
-            <img src="images/white logo.png"alt="Zomato logo"/>
-            <span>Discover the best foods & drinks in Mumbai</span>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="./index.html"><img src="./images/logo.png" alt="Logo"></a>
             </div>
-        </div>
-    </header>
-    <div class="container">
-        <div class="row">
-            <div class="animate-up col-4">
-                <a href="listingpage.html" target="_blank">
-                <div class="card cardtop">
-                    <img src="images/chole.jpg" alt="Chole Bhature"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Order online</h5>
-                        <p class="card-text">
-                            Stay home and order to your door steps.
-                        </p>
+            <ul class="nav-links">
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+      </header>
+
+            <h2 class="heading">Discover the best foods & drinks in Toronto</h2>
+
+    <main class="container my-5">
+        <section class="row g-4">
+            <!-- Cards Section -->
+            <div class="col-lg-4 col-md-6">
+                <a href="listingpage.html" target="_blank" class="text-decoration-none">
+                    <div class="card shadow hover-zoom">
+                        <img src="images/chole.jpg" class="card-img-top" alt="Chole Bhature">
+                        <div class="card-body">
+                            <h5 class="card-title">Order online</h5>
+                            <p class="card-text">Stay home and order to your doorsteps.</p>
+                        </div>
                     </div>
-                </div>
                 </a>
             </div>
-            <div class="col-4">
-                <div class="card cardtop">
-                    <img src="images/dining.jpg" alt="Dining"/>
+            <div class="col-lg-4 col-md-6">
+                <div class="card shadow hover-zoom">
+                    <img src="images/dining.jpg" class="card-img-top" alt="Dining">
                     <div class="card-body">
                         <h5 class="card-title">Dining</h5>
-                        <p class="card-text">
-                            View the city's favourite dining venue.
-                        </p>
+                        <p class="card-text">View the city's favorite dining venues.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-4">
-                <div class="card cardtop">
-                    <img src="images/club.png" alt="Clubs"/>
+            <div class="col-lg-4 col-md-6">
+                <div class="card shadow hover-zoom">
+                    <img src="images/club.png" class="card-img-top" alt="Clubs">
                     <div class="card-body">
                         <h5 class="card-title">Nightlife and Clubs</h5>
-                        <p class="card-text">
-                            Explore the city's top nightlife outings.
-                        </p>
+                        <p class="card-text">Explore the city's top nightlife outings.</p>
                     </div>
                 </div>
             </div>
-            <div class="block">
-                <h1>Collections</h1>
-                <p>Explore curated lists of top restaurants, cafes, pubs, and bars in Mumbai, based on trends</p>
-            </div>
-            <div class="col-3">
-                <div class="card card1">
-                    <p>Newly opened</p>
+        </section>
+
+        <hr class="my-5">
+
+        <!-- Collections Section -->
+        <section class="text-center">
+            <h2>Collections</h2>
+            <p class="lead">Explore curated lists of top restaurants, cafes, pubs, and bars in Toronto, based on trends</p>
+            <div class="row gy-4">
+                <!-- Newly Opened -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card hover-zoom shadow">
+                        <img src="./images/swato.jpeg" class="card-img-top" alt="Newly Opened">
+                        <div class="card-body">
+                            <h5 class="card-title">Newly Opened</h5>
+                            <p class="card-text">Discover the latest hotspots in the city.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Best of Mumbai -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card hover-zoom shadow">
+                        <img src="images/dine.jpeg" class="card-img-top" alt="Best of Mumbai">
+                        <div class="card-body">
+                            <h5 class="card-title">Best of Mumbai</h5>
+                            <p class="card-text">Explore the iconic places loved by locals.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Trending This Week -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card hover-zoom shadow">
+                        <img src="images/trending.jpeg" class="card-img-top" alt="Trending This Week">
+                        <div class="card-body">
+                            <h5 class="card-title">Trending This Week</h5>
+                            <p class="card-text">Check out what's trending in the city right now.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Work-Friendly Places -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card hover-zoom shadow">
+                        <img src="images/work.jpeg" class="card-img-top" alt="Work-Friendly Places">
+                        <div class="card-body">
+                            <h5 class="card-title">Work-Friendly Places</h5>
+                            <p class="card-text">Perfect spots to get work done while enjoying good food.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-3">
-                <div class="card card2">
-                    <p>Best of Mumbai</p>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="card card3">
-                    <p>Trending this week</p>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="card card4">
-                    <p>Work friendly places!</p>
-                </div>
-            </div>
-        </div>
-    </div>
+        </section>
+        
+    </main>
+    <footer>
+        <div class="footer-container">
+          <div class="footer-info">
+              <h4>Contact Us</h4>
+              <p>Email: info@example.com</p>
+              <p>Phone: +1 234 567 890</p>
+              <p>Address: 123 Main Street, City</p>
+          </div>
+          <div class="social-links">
+              <h4>Follow Us</h4>
+              <ul>
+                  <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+              </ul>
+          </div>
+      </div>
+  </footer>
+
+    <script src="index.js"></script>
 </body>
 </html>
