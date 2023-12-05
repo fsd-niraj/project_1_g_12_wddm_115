@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Kaushan+Script&family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --Inter: 'Inter', sans-serif;
+    --Kaushan: 'Kaushan Script', cursive;
+    --Mont: 'Montserrat', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.5;
+    font-family: var(--Mont);
+    background-color: #b52626;
+    color: #fff;
+}
+/* Navbar styles */
+header {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+}
+.heading{
+    font-family: var(--Kaushan);
+    font-size: 3.6rem;
+    color: #ff9505;
+    text-align: center;
+    margin: 35px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.logo img {
+    height: 40px; /* Adjust the size as needed */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+
+.nav-links li a:hover {
+    color: #ff9505;
+    background-color: #f5f5f5;
+}
+
+/* Animation */
+.navbar {
+    animation: slideDown 0.5s ease;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+.menu{
+    margin: 2rem 0;
+}
+.menu-container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.menu-head{
+    text-align: center;
+}
+.menu-head h2{
+    font-family: var(--Kaushan);
+    font-size: 2.6rem;
+    color: #ff9505;
+}
+.menu-head p{
+    font-weight: 300;
+    padding: 1.8rem 0;
+}
+.menu-btns{
+    padding: 0.6rem 0;
+    display: flex;
+    justify-content: center;
+}
+.menu-btn{
+    font-family: var(--Inter);
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background: none;
+    border: none;
+    color: #ff9505;
+    display: block;
+    margin: 0 1rem;
+    cursor: pointer;
+    outline: 0;
+    transition: opacity 0.4s ease-out;
+}
+.menu-btn::after{
+    content: "";
+    display: block;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ff9505;
+    margin-top: 0.5rem;
+    width: 0;
+    transition: width 0.4s ease-out;
+}
+.menu-btn:hover::after{
+    width: 100%;
+}
+.menu-btn:hover{
+    opacity: 0.8;
+}
+.active-btn{
+    color: #fff;
+}
+.food-items{
+    margin: 2rem 0;
+}
+.food-item{
+    border-radius: 4px;
+    overflow: hidden;
+    background: #fff;
+    color: #000;
+    margin: 0.6rem 0;
+    box-shadow: 0 0 16px -4px rgba(0, 0, 0, 0.75);
+    animation: fadeIn 1.5s;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+
+}
+.food-item:hover{
+    box-shadow: 0 8px 16px -4px rgba(0, 0, 0, 0.75);
+    background-color: #ff9505;
+    color: #fff;
+}
+.food-item:hover .food-name {
+    color: #fff;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.food-img img{
+    border-radius: 4px;
+}
+.food-content{
+    padding: 1rem;
+}
+.food-name{
+    font-family: var(--Inter);
+    color: #ff9505;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.line{
+    width: 100px;
+    height: 3px;
+    background: #ff9505;
+}
+.food-price{
+    padding: 0.4rem 0;
+    font-weight: 600;
+    font-size: 1.4rem;
+    opacity: 0.8;
+}
+.rating{
+    display: flex;
+    list-style: none;
+}
+.rating .fa-star{
+    margin-right: 0.4rem;
+    color: #24963F;
+}
+.category{
+    padding-top: 0.2rem;
+    font-size: 1rem;
+    font-weight: 800;
+    font-family: var(--Inter);
+}
+.category span{
+    font-weight: 500;
+}
+/* Footer styles */
+footer {
+    background-color: #fff;
+    color: #000;
+    padding: 2rem 0;
+}
+
+.footer-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.footer-info h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.footer-info p {
+    margin-bottom: 0.5rem;
+}
+
+.social-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.social-links ul li {
+    font-size: 1.5rem;
+}
+
+.social-links ul li a {
+    color: #000;
+    transition: color 0.3s ease;
+}
+
+.social-links ul li a:hover {
+    color: #ff9505;
+}
+p.card-text {
+    color: #ff9505;
+}
+h5.card-title {
+    color: black;
+}
+.card:hover {
+    box-shadow: 0 8px 16px -4px rgba(0, 0, 0, 0.75);
+    background-color: #ff9505;
+    color: #fff;
+}
+.card:hover p.card-text{
+    color: #fff;
+}
+
+.hover-zoom:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+@media screen and (min-width: 600px){
+    .food-item{
+        display: grid;
+        grid-template-columns: 25% auto;
+        align-items: center;
+        padding: 1rem;
+        column-gap: 1rem;
+    }
+    .food-content{
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .menu-head p{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .menu-head p{
+        width: 50%;
+    }
+    .food-items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}
+.success-container {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.success-message {
+    font-family: var(--Kaushan);
+    font-size: 2.6rem;
+    color: #ff9505;
+    margin-bottom: 30px;
+}
+
+.order-details {
+    margin-bottom: 20px;
+}
+
+.order-details p {
+    margin-bottom: 10px;
+}
+
+.continue-shopping {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9505;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.continue-shopping:hover {
+    background-color: #d45a00;
+}
