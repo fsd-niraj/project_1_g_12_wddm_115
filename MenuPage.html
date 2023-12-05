@@ -41,7 +41,7 @@
                 <img src = "foods/banana-bread-with-butter-and-milk.jpg" alt = "food image">
               </div>
               <div class = "food-content">
-                <h2 class = "food-name">Banana Bread With Butter & Milk</h2>
+                <a href="./food_page.html"><h2 class = "food-name">Banana Bread With Butter & Milk</h2></a>
                 <div class = "line"></div>
                 <h3 class = "food-price">$25.00</h3>
                 <ul class = "rating">
@@ -400,6 +400,39 @@
         </div>
     </div>
 </footer>
+<script>
+    const menuBtns = document.querySelectorAll('.menu-btn');
+    const foodItems = document.querySelectorAll('.food-item');
+
+    let activeBtn = "featured";
+
+    showFoodMenu(activeBtn);
+
+    menuBtns.forEach((btn) => {
+        btn.addEventListener('click', () => {
+            resetActiveBtn();
+            showFoodMenu(btn.id);
+            btn.classList.add('active-btn');
+        });
+    });
+
+    function resetActiveBtn(){
+        menuBtns.forEach((btn) => {
+            btn.classList.remove('active-btn');
+        });
+    }
+
+    function showFoodMenu(newMenuBtn){
+        activeBtn = newMenuBtn;
+        foodItems.forEach((item) => {
+            if(item.classList.contains(activeBtn)){
+                item.style.display = "grid";
+            } else {
+                item.style.display = "none";
+            }
+        });
+    }
+</script>
 </body>
 </html><html>
     <head>
