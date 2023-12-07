@@ -80,6 +80,60 @@ function displayTitle(title) {
   mainDiv.appendChild(titleSection)
 }
 
+function globalGradientBg() {
+  const body = document.body;
+  const fsDiv = document.createElement('div');
+  fsDiv.classList.add('pos-relative')
+  const radGrdDiv = document.createElement('div');
+  radGrdDiv.id = 'gradient_bg_screen';
+  document.addEventListener('mousemove', (event) => {
+    const x = event.clientX;
+    const y = event.clientY;
+    const gradientValue = `radial-gradient(800px at ${x}px ${y}px, rgba(29, 78, 216, 0.15), transparent 50%)`;
+    radGrdDiv.style.background = gradientValue
+  });
+  fsDiv.appendChild(radGrdDiv);
+  return body.appendChild(fsDiv)
+}
+
+function navbarToggle() {
+  const navbar = document.getElementById("navbar");
+  let prevScrollPos = window.pageYOffset;
+  window.addEventListener("scroll", function () {
+    const currentScrollPos = window.pageYOffset;
+
+    if (prevScrollPos > currentScrollPos) {
+      navbar.classList.remove("navbar-hidden");
+    } else {
+      navbar.classList.add("navbar-hidden");
+    }
+
+    prevScrollPos = currentScrollPos;
+  });
+}
+
 document.addEventListener("DOMContentLoaded", function () {
-  displayRestaurantCards();
+  globalGradientBg();
+  navbarToggle();
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+  setTimeout(() => {
+    const elementsToAnimate = document.querySelectorAll('.animate-on-scroll');
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.style.opacity = '1';
+        entry.target.style.transform = 'translateY(0) translateX(0)';
+      } else {
+        entry.target.style.opacity = '0';
+        entry.target.style.transform = 'translateY(20px) translateX(-20)';
+      }
+    });
+  }, { threshold: 1 });
+  elementsToAnimate.forEach(element => {
+    observer.observe(element);
+  });
+  }, 200)
 });

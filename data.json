@@ -190,5 +190,239 @@
         ]
       }
     }
+  ],
+  "employees": [
+    {
+      "name": "John",
+      "age": 30,
+      "position": "Manager"
+    },
+    {
+      "name": "Alice",
+      "age": 28,
+      "position": "Developer"
+    },
+    {
+      "name": "Bob",
+      "age": 32,
+      "position": "Designer"
+    }
+  ],
+  "discover": [
+    {
+      "title": "Order Online",
+      "description": "Discover the latest hotspots in the city.",
+      "image": "./images/swato.jpeg"
+    },
+    {
+      "title": "Dining",
+      "description": "View the city's favorite dining venues.",
+      "image": "./images/dine.jpeg"
+    },
+    {
+      "title": "Nightlife and Clubs",
+      "description": "Explore the city's top nightlife outings.",
+      "image": "images/trending.jpeg"
+    }
+  ],
+  "collection": [
+    {
+      "title": "Newly Opened",
+      "description": "Discover the latest hotspots in the city.",
+      "image": "./images/swato.jpeg"
+    },
+    {
+      "title": "Best of Toronto",
+      "description": "Explore the iconic places loved by locals.",
+      "image": "./images/dine.jpeg"
+    },
+    {
+      "title": "Trending This Week",
+      "description": "Check out what's trending in the city right now.",
+      "image": "images/trending.jpeg"
+    },
+    {
+      "title": "Work-Friendly Places",
+      "description": "Perfect spots to get work done while enjoying good food.",
+      "image": "images/work.jpeg"
+    }
+  ],
+  "cusines": [
+    {
+      "name": "Italian",
+      "overview": "Italian cuisine is renowned for its simplicity and emphasis on high-quality ingredients. Pasta, pizza, risotto, and a variety of cheeses are staples.",
+      "signatureDishes": [
+        "Spaghetti Carbonara",
+        "Margherita Pizza",
+        "Risotto alla Milanese",
+        "Tiramisu"
+      ],
+      "keyIngredients": [
+        "Olive oil",
+        "Tomatoes",
+        "Basil",
+        "Parmesan cheese",
+        "Pasta"
+      ]
+    },
+    {
+      "name": "Mexican",
+      "overview": "Mexican food is vibrant and flavorful, featuring a mix of spicy, savory, and sweet flavors. Tacos, burritos, and enchiladas are popular.",
+      "signatureDishes": [
+        "Tacos al Pastor",
+        "Guacamole",
+        "Enchiladas",
+        "Churros"
+      ],
+      "keyIngredients": [
+        "Corn",
+        "Beans",
+        "Avocados",
+        "Chilies",
+        "Beef",
+        "Pork",
+        "Chicken"
+      ]
+    },
+    {
+      "name": "Japanese",
+      "overview": "Japanese cuisine is known for its precision and presentation. Sushi, sashimi, and tempura are widely enjoyed.",
+      "signatureDishes": [
+        "Sushi Rolls",
+        "Sashimi Platter",
+        "Ramen",
+        "Matcha Ice Cream"
+      ],
+      "keyIngredients": [
+        "Rice",
+        "Seaweed",
+        "Soy sauce",
+        "Fresh fish",
+        "Daikon",
+        "Seaweed"
+      ]
+    },
+    {
+      "name": "Indian",
+      "overview": "Indian food is diverse, flavorful, and often spicy. Curries, tandoori dishes, and various bread like naan are staples.",
+      "signatureDishes": [
+        "Chicken Tikka Masala",
+        "Palak Paneer",
+        "Butter Chicken",
+        "Gulab Jamun"
+      ],
+      "keyIngredients": [
+        "Spices",
+        "Lentils",
+        "Rice",
+        "Cumin",
+        "Turmeric",
+        "Cardamom",
+        "Meats",
+        "Vegetables"
+      ]
+    },
+    {
+      "name": "Mediterranean",
+      "overview": "Mediterranean cuisine is known for its use of fresh and healthy ingredients. Hummus, kebabs, and Greek salads are popular.",
+      "signatureDishes": [
+        "Falafel",
+        "Moussaka",
+        "Gyros",
+        "Baklava"
+      ],
+      "keyIngredients": [
+        "Olive oil",
+        "Chickpeas",
+        "Eggplant",
+        "Yogurt",
+        "Herbs"
+      ]
+    },
+    {
+      "name": "Chinese",
+      "overview": "Chinese cuisine offers a diverse range of flavors, from sweet and sour to spicy. Noodles, rice, and stir-fried dishes are staples.",
+      "signatureDishes": [
+        "Kung Pao Chicken",
+        "Dim Sum",
+        "Peking Duck",
+        "Mapo Tofu"
+      ],
+      "keyIngredients": [
+        "Soy sauce",
+        "Ginger",
+        "Garlic",
+        "Rice vinegar",
+        "Sichuan peppercorns"
+      ]
+    },
+    {
+      "name": "French",
+      "overview": "French cuisine is known for its elegance and rich flavors. Pastries, sauces, and exquisite cheeses are integral to French dishes.",
+      "signatureDishes": [
+        "Coq au Vin",
+        "Croissant",
+        "Boeuf Bourguignon",
+        "Ratatouille"
+      ],
+      "keyIngredients": [
+        "Butter",
+        "Wine",
+        "Cream",
+        "Herbs de Provence",
+        "Cheese"
+      ]
+    },
+    {
+      "name": "Thai",
+      "overview": "Thai food is a harmonious blend of sweet, sour, salty, and spicy flavors. Curries, noodles, and aromatic herbs are prominent.",
+      "signatureDishes": [
+        "Tom Yum Goong",
+        "Pad Thai",
+        "Green Curry",
+        "Mango Sticky Rice"
+      ],
+      "keyIngredients": [
+        "Coconut milk",
+        "Lemongrass",
+        "Galangal",
+        "Thai basil",
+        "Fish sauce"
+      ]
+    },
+    {
+      "name": "Spanish",
+      "overview": "Spanish cuisine boasts bold flavors and a variety of regional specialties. Tapas, paella, and chorizo are popular dishes.",
+      "signatureDishes": [
+        "Paella",
+        "Tortilla Española",
+        "Gazpacho",
+        "Churros con Chocolate"
+      ],
+      "keyIngredients": [
+        "Saffron",
+        "Olive oil",
+        "Paprika",
+        "Serrano ham",
+        "Saffron"
+      ]
+    },
+    {
+      "name": "Middle",
+      "overview": "Middle Eastern cuisine is a fusion of aromatic spices and fresh ingredients. Hummus, kebabs, and falafel define this cuisine.",
+      "signatureDishes": [
+        "Hummus",
+        "Shawarma",
+        "Baklava",
+        "Tabbouleh"
+      ],
+      "keyIngredients": [
+        "Olive oil",
+        "Chickpeas",
+        "Pita bread",
+        "Sumac",
+        "Tahini"
+      ]
+    }
   ]
 }
