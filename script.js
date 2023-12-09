@@ -121,19 +121,43 @@ document.addEventListener('DOMContentLoaded', function () {
   setTimeout(() => {
     const elementsToAnimate = document.querySelectorAll('.animate-on-scroll');
 
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.style.opacity = '1';
-        entry.target.style.transform = 'translateY(0) translateX(0)';
-      } else {
-        entry.target.style.opacity = '0';
-        entry.target.style.transform = 'translateY(20px) translateX(-20)';
-      }
+    const observer = new IntersectionObserver((val) => {
+      val.forEach((data) => {
+        if (data.isIntersecting) {
+          data.target.style.opacity = '1';
+          data.target.style.transform = 'translateY(0) scale(1)';
+        } else {
+          data.target.style.opacity = '0';
+          data.target.style.transform = 'translateY(20px) scale(0.95)';
+        }
+      });
+    }, { threshold: 0.5 });
+    elementsToAnimate.forEach(element => {
+      observer.observe(element);
     });
-  }, { threshold: 1 });
-  elementsToAnimate.forEach(element => {
-    observer.observe(element);
-  });
   }, 200)
+
+  const searchInput = document.getElementById('searchInput');
+  const searchLabel = document.querySelector('.search-label');
+
+  searchInput.addEventListener('focus', function () {
+    searchLabel.classList.add('focused');
+  });
+
+  searchInput.addEventListener('blur', function () {
+    if (searchInput.value === '') {
+      searchLabel.classList.remove('focused');
+    }
+  });
+
+  searchInput.addEventListener('input', function () {
+    if (searchInput.value !== '') {
+      searchLabel.classList.add('focused');
+    } else {
+      searchLabel.classList.remove('focused');
+    }
+  });
+
+
 });
+
