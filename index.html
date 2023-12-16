@@ -4,101 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zomato Homepage</title>
+    <title>Welcome! DoneDrop</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 </head>
 
 <body>
     <header>
-        <nav class="navbar" id="navbar">
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#cuisines">Cuisines</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar" id="navbar"></nav>
     </header>
-
-    <main>
-        <section class="home_section" id="home">
-            <div class="div_1 code">Hello, we are</div>
-            <div class="div_2">DineDrop</div>
-            <div class="div_4 h4 code">Food at your fingertips, delivered with care.</div>
-        </section>
-        <section class="about_section" id="about">
-            <h1 class="section_heading code" id="section_heading">About</h1>
-            <div class="about_main_div animate-on-scroll" id="aboutContainer">
-                <div class="about_left_side">
-                    <div class="content_top">
-                        <p>At Dine Drop, we believe in bringing the world's flavors to your doorstep with simplicity and
-                            speed. Our mission is to revolutionize the way you experience dining by seamlessly
-                            connecting you with your favorite restaurants and culinary delights, all from the comfort of
-                            your home or office.</p>
-                        <p>We understand the cravings that strike at any hour, which is why Dine Drop offers a diverse
-                            range of cuisines and a curated selection of top-rated eateries in your area. From sizzling
-                            pizzas to exotic cuisines, from savory delights to guilt-free healthy options, Dine Drop has
-                            something for every palate.</p>
-                        <p>With our user-friendly app, ordering your desired meal is a breeze. Just a few taps, and
-                            voilà! Your food is on its way. Our commitment to prompt delivery ensures that your meal
-                            arrives piping hot and fresh, exactly when you want it.</p>
-                        <p>But it's not just about the food; it's about the experience. At Dine Drop, we prioritize
-                            customer satisfaction above all else. We strive to make every interaction delightful, every
-                            meal memorable, and every delivery swift and reliable.</p>
-                        <p>Join us on this culinary journey where convenience meets exceptional taste. Let Dine Drop be
-                            your partner in savoring the moments that matter, one bite at a time.</p>
-                    </div>
-                    <div class="content_bottom">
-                        <ul>
-                            <li class="code">Diverse Culinary Selection</li>
-                            <li class="code">User-Friendly Ordering</li>
-                            <li class="code">Prompt Delivery</li>
-                            <li class="code">Customer-Centric Approach</li>
-                            <li class="code">Memorable Dining Experience</li>
-                            <li class="code">Reliable Partner</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="cuisines">
-            <h1 class="section_heading code" id="section_heading">Cuisines</h1>
-            <div class="d-flex gap-10 cusineWrapper justify-content-center" id="cusineCard"></div>
-        </section>
-    </main>
     <script src="script.js"></script>
-    <script>
-        function createCuisineCard(name, data) {
-            var cardHtml = `
-                <div class="cusine_card border p-3 animate-on-scroll" id="cusine_card">
-                    <div class="code h5">${data.name} Cuisine</div>
-                    <div><span class="h5">Overview:</span> ${data.overview}</div>
-                    <div class="h5">Signature Dishes</div>
-                    <div class="d-flex gap-10 m-2">
-            `;
-            for (var i = 0; i < data.signatureDishes.length; i++) {
-                cardHtml += `<div class="chip border">${data.signatureDishes[i]}</div>`;
-            }
-            return cardHtml;
-        }
-        function renderCuisineCards(cuisinesData) {
-            var cuisineCardsContainer = $("#cusineCard");
-
-            $.each(cuisinesData, function (cuisineName, cuisineData) {
-                var cardHtml = createCuisineCard(cuisineName, cuisineData);
-                cuisineCardsContainer.append(cardHtml);
-            });
-        }
-        $(document).ready(function () {
-            $.getJSON("data.json", function (data) {
-                const cusineData = data.cusines;
-                renderCuisineCards(cusineData);
-            });
-        });
-    </script>
 </body>
 
 </html>
