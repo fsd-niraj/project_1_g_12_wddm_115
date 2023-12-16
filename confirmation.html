@@ -29,6 +29,74 @@
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="script.js"></script>
+  <script>
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const fname = urlParams.get('fname');
+    const lname = urlParams.get('lname');
+    const addrs = urlParams.get('address');
+    const h1 = document.getElementById('nameH1');
+    h1.textContent = `Congratulations ${fname + " " + lname.split('')[0]}!!`
+    const addressDiv = document.getElementById('addressDiv')
+    addrs !== "" ? addressDiv.textContent = `You can expect your order at ${addrs} in 30 min.` : ""
+    function confetti() {
+      var $confettiContainer = $('<div class="confetti"></div>');
+      var colors = ["#3b5692", "#f9c70b", "#00abed", "#ea6747"];
+      var height = 6.6;
+      var width = 6.6;
+
+      for (var i = 0; i < 100; i++) {
+        var scale = Math.random() * 1.75 + 1;
+        var $confettiItem = $(
+          "<svg class='confetti-item' width='" +
+          width * scale +
+          "' height='" +
+          height * scale +
+          "' viewbox='0 0 " +
+          width +
+          " " +
+          height +
+          "'><use transform='rotate(" +
+          Math.random() * 360 +
+          ", " +
+          width / 2 +
+          ", " +
+          height / 2 +
+          ")' xlink:href='#svg-confetti' /></svg>"
+        );
+        $confettiItem.css({
+          animation:
+            Math.random() +
+            2 +
+            "s " +
+            Math.random() * 2 +
+            "s confetti-fall ease-in both",
+          background: randomize(colors),
+          left: Math.random() * 100 + "vw"
+        });
+        $confettiContainer.append($confettiItem);
+      }
+      $("body").append($confettiContainer);
+    }
+
+    function randomize(collection) {
+      var randomNumber = Math.floor(Math.random() * collection.length);
+      return collection[randomNumber];
+    }
+
+    $(document).ready(function () {
+      confetti();
+    });
+
+    function goBack() {
+      return window.history.go(-2);
+    }
+
+    function goToExplore(){
+      return window.location="http://127.0.0.1:5500/index.html#cuisines";
+    }
+
+  </script>
 </body>
 
 </html>
