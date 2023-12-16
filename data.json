@@ -10,7 +10,7 @@
     },
     {
       "title": "Cusines",
-      "href": "#cusines"
+      "href": "#cuisines"
     },
     {
       "title": "Services",
@@ -23,18 +23,128 @@
       "overview": "Italian cuisine is renowned for its simplicity and emphasis on high-quality ingredients. Pasta, pizza, risotto, and a variety of cheeses are staples.",
       "signatureDishes": [
         {
-          "name": "Pizza",
+          "name": "Margherita Pizza",
           "price": 10,
           "cuisine": "Italian"
         },
         {
-          "name": "Pasta",
+          "name": "Fettuccine Alfredo",
           "price": 12,
           "cuisine": "Italian"
         },
         {
-          "name": "Risotto",
+          "name": "Lasagna",
+          "price": 14,
+          "cuisine": "Italian"
+        },
+        {
+          "name": "Spaghetti Carbonara",
+          "price": 13,
+          "cuisine": "Italian"
+        },
+        {
+          "name": "Tiramisu",
+          "price": 8,
+          "cuisine": "Italian"
+        },
+        {
+          "name": "Bruschetta",
+          "price": 9,
+          "cuisine": "Italian"
+        },
+        {
+          "name": "Caprese Salad",
+          "price": 11,
+          "cuisine": "Italian"
+        },
+        {
+          "name": "Minestrone Soup",
+          "price": 10,
+          "cuisine": "Italian"
+        },
+        {
+          "name": "Gelato",
+          "price": 7,
+          "cuisine": "Italian"
+        },
+        {
+          "name": "Cannoli",
+          "price": 9,
+          "cuisine": "Italian"
+        },
+        {
+          "name": "Ravioli",
+          "price": 12,
+          "cuisine": "Italian"
+        },
+        {
+          "name": "Panzanella",
+          "price": 8,
+          "cuisine": "Italian"
+        },
+        {
+          "name": "Ossobuco",
+          "price": 18,
+          "cuisine": "Italian"
+        },
+        {
+          "name": "Risotto Milanese",
+          "price": 16,
+          "cuisine": "Italian"
+        },
+        {
+          "name": "Cacio e Pepe",
+          "price": 11,
+          "cuisine": "Italian"
+        },
+        {
+          "name": "Saltimbocca",
+          "price": 14,
+          "cuisine": "Italian"
+        },
+        {
+          "name": "Panna Cotta",
+          "price": 9,
+          "cuisine": "Italian"
+        },
+        {
+          "name": "Cioppino",
+          "price": 17,
+          "cuisine": "Italian"
+        },
+        {
+          "name": "Calamari Fritti",
           "price": 15,
+          "cuisine": "Italian"
+        },
+        {
+          "name": "Zeppole",
+          "price": 8,
+          "cuisine": "Italian"
+        },
+        {
+          "name": "Farfalle Pasta",
+          "price": 12,
+          "cuisine": "Italian"
+        },
+        {
+          "name": "Polenta",
+          "price": 10,
+          "cuisine": "Italian"
+        },
+        {
+          "name": "Caponata",
+          "price": 11,
+          "cuisine": "Italian"
+        },
+        {
+          "name": "Arancini",
+          "price": 9,
+          "cuisine": "Italian"
+        },
+        {
+          "name": "Tortellini",
+          "price": 13,
           "cuisine": "Italian"
         }
       ],
@@ -52,18 +162,128 @@
       "overview": "Mexican cuisine is known for its bold flavors, colorful presentation, and use of ingredients such as chili peppers, beans, avocado, and corn.",
       "signatureDishes": [
         {
-          "name": "Tacos",
+          "name": "Taco",
           "price": 8,
           "cuisine": "Mexican"
         },
         {
-          "name": "Enchiladas",
+          "name": "Burrito",
           "price": 10,
           "cuisine": "Mexican"
         },
         {
+          "name": "Enchilada",
+          "price": 12,
+          "cuisine": "Mexican"
+        },
+        {
+          "name": "Quesadilla",
+          "price": 9,
+          "cuisine": "Mexican"
+        },
+        {
+          "name": "Chili Con Carne",
+          "price": 11,
+          "cuisine": "Mexican"
+        },
+        {
           "name": "Guacamole",
+          "price": 7,
+          "cuisine": "Mexican"
+        },
+        {
+          "name": "Nachos",
+          "price": 10,
+          "cuisine": "Mexican"
+        },
+        {
+          "name": "Tostada",
+          "price": 9,
+          "cuisine": "Mexican"
+        },
+        {
+          "name": "Sope",
+          "price": 8,
+          "cuisine": "Mexican"
+        },
+        {
+          "name": "Pozole",
+          "price": 13,
+          "cuisine": "Mexican"
+        },
+        {
+          "name": "Tamales",
+          "price": 11,
+          "cuisine": "Mexican"
+        },
+        {
+          "name": "Ceviche",
+          "price": 12,
+          "cuisine": "Mexican"
+        },
+        {
+          "name": "Fajitas",
+          "price": 14,
+          "cuisine": "Mexican"
+        },
+        {
+          "name": "Huarache",
+          "price": 9,
+          "cuisine": "Mexican"
+        },
+        {
+          "name": "Churros",
           "price": 6,
+          "cuisine": "Mexican"
+        },
+        {
+          "name": "Mole",
+          "price": 12,
+          "cuisine": "Mexican"
+        },
+        {
+          "name": "Tamale Pie",
+          "price": 10,
+          "cuisine": "Mexican"
+        },
+        {
+          "name": "Cochinita Pibil",
+          "price": 15,
+          "cuisine": "Mexican"
+        },
+        {
+          "name": "Salsa",
+          "price": 5,
+          "cuisine": "Mexican"
+        },
+        {
+          "name": "Barbacoa",
+          "price": 13,
+          "cuisine": "Mexican"
+        },
+        {
+          "name": "Pico De Gallo",
+          "price": 6,
+          "cuisine": "Mexican"
+        },
+        {
+          "name": "Chilaquiles",
+          "price": 11,
+          "cuisine": "Mexican"
+        },
+        {
+          "name": "Flauta",
+          "price": 9,
+          "cuisine": "Mexican"
+        },
+        {
+          "name": "Sangrita",
+          "price": 8,
+          "cuisine": "Mexican"
+        },
+        {
+          "name": "Birria",
+          "price": 12,
           "cuisine": "Mexican"
         }
       ],
@@ -77,236 +297,1478 @@
       "href": "/mexican"
     },
     {
-      "name": "Italian",
-      "overview": "Italian cuisine is renowned for its simplicity and emphasis on high-quality ingredients. Pasta, pizza, risotto, and a variety of cheeses are staples.",
+      "name": "Japanese",
+      "overview": "Japanese cuisine is characterized by its emphasis on seasonal ingredients, presentation, and meticulous preparation techniques such as sushi, sashimi, and tempura.",
+      "signatureDishes": [
+        [
+          {
+            "name": "Sushi",
+            "price": 20,
+            "cuisine": "Japanese"
+          },
+          {
+            "name": "Sashimi",
+            "price": 18,
+            "cuisine": "Japanese"
+          },
+          {
+            "name": "Ramen",
+            "price": 15,
+            "cuisine": "Japanese"
+          },
+          {
+            "name": "Tempura",
+            "price": 16,
+            "cuisine": "Japanese"
+          },
+          {
+            "name": "Udon",
+            "price": 14,
+            "cuisine": "Japanese"
+          },
+          {
+            "name": "Yakitori",
+            "price": 12,
+            "cuisine": "Japanese"
+          },
+          {
+            "name": "Tonkatsu",
+            "price": 17,
+            "cuisine": "Japanese"
+          },
+          {
+            "name": "Okonomiyaki",
+            "price": 13,
+            "cuisine": "Japanese"
+          },
+          {
+            "name": "Gyoza",
+            "price": 11,
+            "cuisine": "Japanese"
+          },
+          {
+            "name": "Miso Soup",
+            "price": 8,
+            "cuisine": "Japanese"
+          }
+        ]
+      ],
+      "keyIngredients": [
+        "Rice",
+        "Soy sauce",
+        "Fish",
+        "Seaweed",
+        "Miso"
+      ],
+      "href": "/japanese"
+    },
+    {
+      "name": "Indian",
+      "overview": "Indian cuisine is diverse, rich, and flavorful, known for its use of aromatic spices and herbs. Curries, biryanis, and naan are some of its popular dishes.",
       "signatureDishes": [
         {
-          "name": "Pizza",
-          "price": 10,
-          "cuisine": "Italian"
+          "name": "Sushi",
+          "price": 20,
+          "cuisine": "Japanese"
         },
         {
-          "name": "Pasta",
-          "price": 12,
-          "cuisine": "Italian"
+          "name": "Sashimi",
+          "price": 18,
+          "cuisine": "Japanese"
         },
         {
-          "name": "Risotto",
+          "name": "Ramen",
           "price": 15,
-          "cuisine": "Italian"
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tempura",
+          "price": 16,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Udon",
+          "price": 14,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Yakitori",
+          "price": 12,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tonkatsu",
+          "price": 17,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Okonomiyaki",
+          "price": 13,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Gyoza",
+          "price": 11,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Miso Soup",
+          "price": 8,
+          "cuisine": "Japanese"
+        }
+      ],
+      "keyIngredients": [
+        "Turmeric",
+        "Cumin",
+        "Coriander",
+        "Garam masala",
+        "Chilies"
+      ],
+      "href": "/indian"
+    },
+    {
+      "name": "Mexican",
+      "overview": "Mexican cuisine is vibrant and diverse, with a fusion of flavors from indigenous Mesoamerican and Spanish cooking. Tacos, enchiladas, and guacamole are staples.",
+      "signatureDishes": [
+        {
+          "name": "Sushi",
+          "price": 20,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Sashimi",
+          "price": 18,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Ramen",
+          "price": 15,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tempura",
+          "price": 16,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Udon",
+          "price": 14,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Yakitori",
+          "price": 12,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tonkatsu",
+          "price": 17,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Okonomiyaki",
+          "price": 13,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Gyoza",
+          "price": 11,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Miso Soup",
+          "price": 8,
+          "cuisine": "Japanese"
+        }
+      ],
+      "keyIngredients": [
+        "Corn",
+        "Beans",
+        "Chilies",
+        "Avocado",
+        "Cilantro"
+      ],
+      "href": "/mexican"
+    },
+    {
+      "name": "Chinese",
+      "overview": "Chinese cuisine is known for its diversity across regions, from Sichuan's spicy dishes to Cantonese dim sum. Rice, noodles, and stir-fries are common.",
+      "signatureDishes": [
+        {
+          "name": "Sushi",
+          "price": 20,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Sashimi",
+          "price": 18,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Ramen",
+          "price": 15,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tempura",
+          "price": 16,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Udon",
+          "price": 14,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Yakitori",
+          "price": 12,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tonkatsu",
+          "price": 17,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Okonomiyaki",
+          "price": 13,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Gyoza",
+          "price": 11,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Miso Soup",
+          "price": 8,
+          "cuisine": "Japanese"
+        }
+      ],
+      "keyIngredients": [
+        "Soy sauce",
+        "Ginger",
+        "Garlic",
+        "Green onions",
+        "Rice vinegar"
+      ],
+      "href": "/chinese"
+    },
+    {
+      "name": "Thai",
+      "overview": "Thai cuisine is a harmonious blend of sweet, sour, salty, and spicy flavors. Tom yum, pad Thai, and green curry are iconic Thai dishes.",
+      "signatureDishes": [
+        {
+          "name": "Sushi",
+          "price": 20,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Sashimi",
+          "price": 18,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Ramen",
+          "price": 15,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tempura",
+          "price": 16,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Udon",
+          "price": 14,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Yakitori",
+          "price": 12,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tonkatsu",
+          "price": 17,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Okonomiyaki",
+          "price": 13,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Gyoza",
+          "price": 11,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Miso Soup",
+          "price": 8,
+          "cuisine": "Japanese"
+        }
+      ],
+      "keyIngredients": [
+        "Coconut milk",
+        "Lemongrass",
+        "Galangal",
+        "Fish sauce",
+        "Thai basil"
+      ],
+      "href": "/thai"
+    },
+    {
+      "name": "French",
+      "overview": "French cuisine is renowned for its elegance and use of rich ingredients. Escargot, coq au vin, and soufflé are classic French dishes.",
+      "signatureDishes": [
+        {
+          "name": "Sushi",
+          "price": 20,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Sashimi",
+          "price": 18,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Ramen",
+          "price": 15,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tempura",
+          "price": 16,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Udon",
+          "price": 14,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Yakitori",
+          "price": 12,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tonkatsu",
+          "price": 17,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Okonomiyaki",
+          "price": 13,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Gyoza",
+          "price": 11,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Miso Soup",
+          "price": 8,
+          "cuisine": "Japanese"
+        }
+      ],
+      "keyIngredients": [
+        "Butter",
+        "Cream",
+        "Wine",
+        "Cheese",
+        "Herbs de Provence"
+      ],
+      "href": "/french"
+    },
+    {
+      "name": "Greek",
+      "overview": "Greek cuisine focuses on fresh ingredients and simplicity. Moussaka, souvlaki, and tzatziki are some traditional Greek dishes.",
+      "signatureDishes": [
+        {
+          "name": "Sushi",
+          "price": 20,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Sashimi",
+          "price": 18,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Ramen",
+          "price": 15,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tempura",
+          "price": 16,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Udon",
+          "price": 14,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Yakitori",
+          "price": 12,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tonkatsu",
+          "price": 17,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Okonomiyaki",
+          "price": 13,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Gyoza",
+          "price": 11,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Miso Soup",
+          "price": 8,
+          "cuisine": "Japanese"
         }
       ],
       "keyIngredients": [
         "Olive oil",
-        "Tomatoes",
-        "Basil",
-        "Parmesan cheese",
-        "Pasta"
+        "Feta cheese",
+        "Yogurt",
+        "Lamb",
+        "Oregano"
       ],
-      "href": "/italian"
+      "href": "/greek"
     },
     {
-      "name": "Mexican",
-      "overview": "Mexican cuisine is known for its bold flavors, colorful presentation, and use of ingredients such as chili peppers, beans, avocado, and corn.",
+      "name": "Spanish",
+      "overview": "Spanish cuisine varies by region, offering diverse flavors. Paella, tapas, and gazpacho are emblematic of Spain's culinary heritage.",
       "signatureDishes": [
         {
-          "name": "Tacos",
+          "name": "Sushi",
+          "price": 20,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Sashimi",
+          "price": 18,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Ramen",
+          "price": 15,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tempura",
+          "price": 16,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Udon",
+          "price": 14,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Yakitori",
+          "price": 12,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tonkatsu",
+          "price": 17,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Okonomiyaki",
+          "price": 13,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Gyoza",
+          "price": 11,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Miso Soup",
           "price": 8,
-          "cuisine": "Mexican"
-        },
-        {
-          "name": "Enchiladas",
-          "price": 10,
-          "cuisine": "Mexican"
-        },
-        {
-          "name": "Guacamole",
-          "price": 6,
-          "cuisine": "Mexican"
+          "cuisine": "Japanese"
         }
       ],
       "keyIngredients": [
-        "Chili peppers",
-        "Beans",
-        "Avocado",
-        "Corn",
-        "Cilantro"
+        "Saffron",
+        "Chorizo",
+        "Tomatoes",
+        "Garlic",
+        "Paprika"
       ],
-      "href": "/mexican"
+      "href": "/spanish"
     },
     {
-      "name": "Italian",
-      "overview": "Italian cuisine is renowned for its simplicity and emphasis on high-quality ingredients. Pasta, pizza, risotto, and a variety of cheeses are staples.",
+      "name": "Middle Eastern",
+      "overview": "Middle Eastern cuisine features a blend of aromatic spices and bold flavors. Hummus, falafel, and shawarma are common Middle Eastern dishes.",
       "signatureDishes": [
         {
-          "name": "Pizza",
-          "price": 10,
-          "cuisine": "Italian"
+          "name": "Sushi",
+          "price": 20,
+          "cuisine": "Japanese"
         },
         {
-          "name": "Pasta",
-          "price": 12,
-          "cuisine": "Italian"
+          "name": "Sashimi",
+          "price": 18,
+          "cuisine": "Japanese"
         },
         {
-          "name": "Risotto",
+          "name": "Ramen",
           "price": 15,
-          "cuisine": "Italian"
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tempura",
+          "price": 16,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Udon",
+          "price": 14,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Yakitori",
+          "price": 12,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tonkatsu",
+          "price": 17,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Okonomiyaki",
+          "price": 13,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Gyoza",
+          "price": 11,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Miso Soup",
+          "price": 8,
+          "cuisine": "Japanese"
+        }
+      ],
+      "keyIngredients": [
+        "Chickpeas",
+        "Tahini",
+        "Pita bread",
+        "Sumac",
+        "Pomegranate"
+      ],
+      "href": "/middle-eastern"
+    },
+    {
+      "name": "Mediterranean",
+      "overview": "Mediterranean cuisine offers a healthy, balanced diet rich in olive oil, vegetables, and seafood. Greek salad, couscous, and ratatouille are staples.",
+      "signatureDishes": [
+        {
+          "name": "Sushi",
+          "price": 20,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Sashimi",
+          "price": 18,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Ramen",
+          "price": 15,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tempura",
+          "price": 16,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Udon",
+          "price": 14,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Yakitori",
+          "price": 12,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tonkatsu",
+          "price": 17,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Okonomiyaki",
+          "price": 13,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Gyoza",
+          "price": 11,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Miso Soup",
+          "price": 8,
+          "cuisine": "Japanese"
         }
       ],
       "keyIngredients": [
         "Olive oil",
-        "Tomatoes",
-        "Basil",
-        "Parmesan cheese",
-        "Pasta"
+        "Olives",
+        "Feta cheese",
+        "Lemon",
+        "Eggplant"
       ],
-      "href": "/italian"
+      "href": "/mediterranean"
     },
     {
-      "name": "Mexican",
-      "overview": "Mexican cuisine is known for its bold flavors, colorful presentation, and use of ingredients such as chili peppers, beans, avocado, and corn.",
+      "name": "American",
+      "overview": "American cuisine is diverse, influenced by various cultures. Burgers, hot dogs, and apple pie are emblematic of American comfort food.",
       "signatureDishes": [
         {
-          "name": "Tacos",
-          "price": 8,
-          "cuisine": "Mexican"
+          "name": "Sushi",
+          "price": 20,
+          "cuisine": "Japanese"
         },
         {
-          "name": "Enchiladas",
-          "price": 10,
-          "cuisine": "Mexican"
+          "name": "Sashimi",
+          "price": 18,
+          "cuisine": "Japanese"
         },
         {
-          "name": "Guacamole",
-          "price": 6,
-          "cuisine": "Mexican"
-        }
-      ],
-      "keyIngredients": [
-        "Chili peppers",
-        "Beans",
-        "Avocado",
-        "Corn",
-        "Cilantro"
-      ],
-      "href": "/mexican"
-    },
-    {
-      "name": "Italian",
-      "overview": "Italian cuisine is renowned for its simplicity and emphasis on high-quality ingredients. Pasta, pizza, risotto, and a variety of cheeses are staples.",
-      "signatureDishes": [
-        {
-          "name": "Pizza",
-          "price": 10,
-          "cuisine": "Italian"
-        },
-        {
-          "name": "Pasta",
-          "price": 12,
-          "cuisine": "Italian"
-        },
-        {
-          "name": "Risotto",
+          "name": "Ramen",
           "price": 15,
-          "cuisine": "Italian"
-        }
-      ],
-      "keyIngredients": [
-        "Olive oil",
-        "Tomatoes",
-        "Basil",
-        "Parmesan cheese",
-        "Pasta"
-      ],
-      "href": "/italian"
-    },
-    {
-      "name": "Mexican",
-      "overview": "Mexican cuisine is known for its bold flavors, colorful presentation, and use of ingredients such as chili peppers, beans, avocado, and corn.",
-      "signatureDishes": [
-        {
-          "name": "Tacos",
-          "price": 8,
-          "cuisine": "Mexican"
+          "cuisine": "Japanese"
         },
         {
-          "name": "Enchiladas",
-          "price": 10,
-          "cuisine": "Mexican"
+          "name": "Tempura",
+          "price": 16,
+          "cuisine": "Japanese"
         },
         {
-          "name": "Guacamole",
-          "price": 6,
-          "cuisine": "Mexican"
-        }
-      ],
-      "keyIngredients": [
-        "Chili peppers",
-        "Beans",
-        "Avocado",
-        "Corn",
-        "Cilantro"
-      ],
-      "href": "/mexican"
-    },
-    {
-      "name": "Italian",
-      "overview": "Italian cuisine is renowned for its simplicity and emphasis on high-quality ingredients. Pasta, pizza, risotto, and a variety of cheeses are staples.",
-      "signatureDishes": [
-        {
-          "name": "Pizza",
-          "price": 10,
-          "cuisine": "Italian"
+          "name": "Udon",
+          "price": 14,
+          "cuisine": "Japanese"
         },
         {
-          "name": "Pasta",
+          "name": "Yakitori",
           "price": 12,
-          "cuisine": "Italian"
+          "cuisine": "Japanese"
         },
         {
-          "name": "Risotto",
-          "price": 15,
-          "cuisine": "Italian"
+          "name": "Tonkatsu",
+          "price": 17,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Okonomiyaki",
+          "price": 13,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Gyoza",
+          "price": 11,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Miso Soup",
+          "price": 8,
+          "cuisine": "Japanese"
         }
       ],
       "keyIngredients": [
-        "Olive oil",
-        "Tomatoes",
-        "Basil",
-        "Parmesan cheese",
-        "Pasta"
+        "Beef",
+        "Potatoes",
+        "Corn",
+        "Apple",
+        "Maple syrup"
       ],
-      "href": "/italian"
+      "href": "/american"
     },
     {
-      "name": "Mexican",
-      "overview": "Mexican cuisine is known for its bold flavors, colorful presentation, and use of ingredients such as chili peppers, beans, avocado, and corn.",
+      "name": "Vietnamese",
+      "overview": "Vietnamese cuisine features fresh herbs and flavors. Pho, banh mi, and spring rolls are popular Vietnamese dishes.",
       "signatureDishes": [
         {
-          "name": "Tacos",
+          "name": "Sushi",
+          "price": 20,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Sashimi",
+          "price": 18,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Ramen",
+          "price": 15,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tempura",
+          "price": 16,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Udon",
+          "price": 14,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Yakitori",
+          "price": 12,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tonkatsu",
+          "price": 17,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Okonomiyaki",
+          "price": 13,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Gyoza",
+          "price": 11,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Miso Soup",
           "price": 8,
-          "cuisine": "Mexican"
-        },
-        {
-          "name": "Enchiladas",
-          "price": 10,
-          "cuisine": "Mexican"
-        },
-        {
-          "name": "Guacamole",
-          "price": 6,
-          "cuisine": "Mexican"
+          "cuisine": "Japanese"
         }
       ],
       "keyIngredients": [
-        "Chili peppers",
-        "Beans",
-        "Avocado",
-        "Corn",
-        "Cilantro"
+        "Fish sauce",
+        "Rice noodles",
+        "Lemongrass",
+        "Mint",
+        "Rice paper"
       ],
-      "href": "/mexican"
+      "href": "/vietnamese"
+    },
+    {
+      "name": "Korean",
+      "overview": "Korean cuisine is known for its bold flavors and extensive use of fermented ingredients. Kimchi, bulgogi, and bibimbap are iconic Korean dishes.",
+      "signatureDishes": [
+        {
+          "name": "Sushi",
+          "price": 20,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Sashimi",
+          "price": 18,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Ramen",
+          "price": 15,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tempura",
+          "price": 16,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Udon",
+          "price": 14,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Yakitori",
+          "price": 12,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tonkatsu",
+          "price": 17,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Okonomiyaki",
+          "price": 13,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Gyoza",
+          "price": 11,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Miso Soup",
+          "price": 8,
+          "cuisine": "Japanese"
+        }
+      ],
+      "keyIngredients": [
+        "Gochujang",
+        "Kimchi",
+        "Soybean paste",
+        "Rice",
+        "Sesame oil"
+      ],
+      "href": "/korean"
+    },
+    {
+      "name": "African",
+      "overview": "African cuisine reflects diverse cultures and regions, offering a variety of flavors. Tagine, injera, and jollof rice are some popular African dishes.",
+      "signatureDishes": [
+        {
+          "name": "Sushi",
+          "price": 20,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Sashimi",
+          "price": 18,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Ramen",
+          "price": 15,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tempura",
+          "price": 16,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Udon",
+          "price": 14,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Yakitori",
+          "price": 12,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tonkatsu",
+          "price": 17,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Okonomiyaki",
+          "price": 13,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Gyoza",
+          "price": 11,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Miso Soup",
+          "price": 8,
+          "cuisine": "Japanese"
+        }
+      ],
+      "keyIngredients": [
+        "Plantains",
+        "Cassava",
+        "Yams",
+        "Berbere spice",
+        "Peanuts"
+      ],
+      "href": "/african"
+    },
+    {
+      "name": "Brazilian",
+      "overview": "Brazilian cuisine is a fusion of indigenous, European, and African influences. Feijoada, coxinha, and pão de queijo are iconic Brazilian foods.",
+      "signatureDishes": [
+        {
+          "name": "Sushi",
+          "price": 20,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Sashimi",
+          "price": 18,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Ramen",
+          "price": 15,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tempura",
+          "price": 16,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Udon",
+          "price": 14,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Yakitori",
+          "price": 12,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tonkatsu",
+          "price": 17,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Okonomiyaki",
+          "price": 13,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Gyoza",
+          "price": 11,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Miso Soup",
+          "price": 8,
+          "cuisine": "Japanese"
+        }
+      ],
+      "keyIngredients": [
+        "Black beans",
+        "Cassava flour",
+        "Tapioca",
+        "Palm oil",
+        "Manioc"
+      ],
+      "href": "/brazilian"
+    },
+    {
+      "name": "Caribbean",
+      "overview": "Caribbean cuisine is a blend of African, European, and Indigenous flavors. Jerk chicken, rice and peas, and conch fritters are Caribbean staples.",
+      "signatureDishes": [
+        {
+          "name": "Sushi",
+          "price": 20,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Sashimi",
+          "price": 18,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Ramen",
+          "price": 15,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tempura",
+          "price": 16,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Udon",
+          "price": 14,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Yakitori",
+          "price": 12,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tonkatsu",
+          "price": 17,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Okonomiyaki",
+          "price": 13,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Gyoza",
+          "price": 11,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Miso Soup",
+          "price": 8,
+          "cuisine": "Japanese"
+        }
+      ],
+      "keyIngredients": [
+        "Coconut",
+        "Ackee",
+        "Plantains",
+        "Allspice",
+        "Callaloo"
+      ],
+      "href": "/caribbean"
+    },
+    {
+      "name": "Australian",
+      "overview": "Australian cuisine draws influences from various cultures. Vegemite, meat pies, and pavlova are some iconic Australian foods.",
+      "signatureDishes": [
+        {
+          "name": "Sushi",
+          "price": 20,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Sashimi",
+          "price": 18,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Ramen",
+          "price": 15,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tempura",
+          "price": 16,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Udon",
+          "price": 14,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Yakitori",
+          "price": 12,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tonkatsu",
+          "price": 17,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Okonomiyaki",
+          "price": 13,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Gyoza",
+          "price": 11,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Miso Soup",
+          "price": 8,
+          "cuisine": "Japanese"
+        }
+      ],
+      "keyIngredients": [
+        "Lamb",
+        "Seafood",
+        "Macadamia nuts",
+        "Pumpkin",
+        "Wattleseed"
+      ],
+      "href": "/australian"
+    },
+    {
+      "name": "Scandinavian",
+      "overview": "Scandinavian cuisine is simple yet flavorful, often featuring fish and berries. Smorgasbord, gravlax, and meatballs are popular in this cuisine.",
+      "signatureDishes": [
+        {
+          "name": "Sushi",
+          "price": 20,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Sashimi",
+          "price": 18,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Ramen",
+          "price": 15,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tempura",
+          "price": 16,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Udon",
+          "price": 14,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Yakitori",
+          "price": 12,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tonkatsu",
+          "price": 17,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Okonomiyaki",
+          "price": 13,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Gyoza",
+          "price": 11,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Miso Soup",
+          "price": 8,
+          "cuisine": "Japanese"
+        }
+      ],
+      "keyIngredients": [
+        "Salmon",
+        "Rye bread",
+        "Herring",
+        "Lingonberries",
+        "Dill"
+      ],
+      "href": "/scandinavian"
+    },
+    {
+      "name": "Russian",
+      "overview": "Russian cuisine is diverse and hearty, known for its use of potatoes and hearty soups. Borscht, pelmeni, and blini are classic Russian dishes.",
+      "signatureDishes": [
+        {
+          "name": "Sushi",
+          "price": 20,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Sashimi",
+          "price": 18,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Ramen",
+          "price": 15,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tempura",
+          "price": 16,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Udon",
+          "price": 14,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Yakitori",
+          "price": 12,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tonkatsu",
+          "price": 17,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Okonomiyaki",
+          "price": 13,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Gyoza",
+          "price": 11,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Miso Soup",
+          "price": 8,
+          "cuisine": "Japanese"
+        }
+      ],
+      "keyIngredients": [
+        "Potatoes",
+        "Beets",
+        "Cabbage",
+        "Sour cream",
+        "Dill"
+      ],
+      "href": "/russian"
+    },
+    {
+      "name": "Turkish",
+      "overview": "Turkish cuisine is a fusion of Middle Eastern and Mediterranean flavors. Kebabs, baklava, and meze are common in Turkish dining.",
+      "signatureDishes": [
+        {
+          "name": "Sushi",
+          "price": 20,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Sashimi",
+          "price": 18,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Ramen",
+          "price": 15,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tempura",
+          "price": 16,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Udon",
+          "price": 14,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Yakitori",
+          "price": 12,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tonkatsu",
+          "price": 17,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Okonomiyaki",
+          "price": 13,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Gyoza",
+          "price": 11,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Miso Soup",
+          "price": 8,
+          "cuisine": "Japanese"
+        }
+      ],
+      "keyIngredients": [
+        "Lamb",
+        "Eggplant",
+        "Yogurt",
+        "Pomegranate",
+        "Bulgur"
+      ],
+      "href": "/turkish"
+    },
+    {
+      "name": "Portuguese",
+      "overview": "Portuguese cuisine offers a mix of flavors from the sea and the land. Pastel de nata, bacalhau, and caldo verde are typical Portuguese dishes.",
+      "signatureDishes": [
+        {
+          "name": "Sushi",
+          "price": 20,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Sashimi",
+          "price": 18,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Ramen",
+          "price": 15,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tempura",
+          "price": 16,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Udon",
+          "price": 14,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Yakitori",
+          "price": 12,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tonkatsu",
+          "price": 17,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Okonomiyaki",
+          "price": 13,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Gyoza",
+          "price": 11,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Miso Soup",
+          "price": 8,
+          "cuisine": "Japanese"
+        }
+      ],
+      "keyIngredients": [
+        "Codfish",
+        "Olive oil",
+        "Port wine",
+        "Cilantro",
+        "Sausage"
+      ],
+      "href": "/portuguese"
+    },
+    {
+      "name": "Swiss",
+      "overview": "Swiss cuisine is influenced by its neighboring countries. Fondue, raclette, and rösti are traditional Swiss foods.",
+      "signatureDishes": [
+        {
+          "name": "Sushi",
+          "price": 20,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Sashimi",
+          "price": 18,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Ramen",
+          "price": 15,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tempura",
+          "price": 16,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Udon",
+          "price": 14,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Yakitori",
+          "price": 12,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tonkatsu",
+          "price": 17,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Okonomiyaki",
+          "price": 13,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Gyoza",
+          "price": 11,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Miso Soup",
+          "price": 8,
+          "cuisine": "Japanese"
+        }
+      ],
+      "keyIngredients": [
+        "Cheese",
+        "Potatoes",
+        "Chocolate",
+        "Apples",
+        "Cream"
+      ],
+      "href": "/swiss"
+    },
+    {
+      "name": "Peruvian",
+      "overview": "Peruvian cuisine is diverse and reflects various cultural influences. Ceviche, lomo saltado, and causa are iconic Peruvian dishes.",
+      "signatureDishes": [
+        {
+          "name": "Sushi",
+          "price": 20,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Sashimi",
+          "price": 18,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Ramen",
+          "price": 15,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tempura",
+          "price": 16,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Udon",
+          "price": 14,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Yakitori",
+          "price": 12,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Tonkatsu",
+          "price": 17,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Okonomiyaki",
+          "price": 13,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Gyoza",
+          "price": 11,
+          "cuisine": "Japanese"
+        },
+        {
+          "name": "Miso Soup",
+          "price": 8,
+          "cuisine": "Japanese"
+        }
+      ],
+      "keyIngredients": [
+        "Potatoes",
+        "Corn",
+        "Quinoa",
+        "Aji peppers",
+        "Lime"
+      ],
+      "href": "/peruvian"
     }
   ]
 }
