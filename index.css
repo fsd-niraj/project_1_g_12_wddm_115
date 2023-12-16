@@ -87,7 +87,7 @@ img:hover {
 }
 
 .border:hover {
-    border-color: var(--hover-border-color);
+    border-color: var(--hover-border-color) !important;
 }
 
 .text-center {
@@ -364,52 +364,8 @@ a {
     margin-bottom: 6px;
 }
 
-.exper_techStack_list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    gap: 14px;
-    padding: 20px 10px 40px 10px;
-    max-width: 1200px;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-}
-
 .pos-rel {
     position: relative;
-}
-
-.social_media_wrap {
-    position: fixed;
-    bottom: 0;
-    left: 30px;
-}
-
-.social_media_wrap ul {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    gap: 10px;
-}
-
-.social_media_wrap ul li {
-    padding: 12px;
-    border-radius: 50%;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    width: 50px;
-}
-
-.social_media_wrap ul::after {
-    content: "";
-    display: block;
-    width: 1px;
-    height: 150px;
-    margin: auto;
-    background-color: var(--global-highlight-color);
 }
 
 .pos-relative {
@@ -548,9 +504,6 @@ a {
 
 /* Media queries */
 @media screen and (max-width: 1200px) {
-    .exper_techStack_list {
-        grid-template-columns: repeat(auto-fill, minmax(75px, 1fr));
-    }
 }
 
 @media screen and (max-width: 900px) {
@@ -560,10 +513,6 @@ a {
 
     .exper_detail_wrap {
         max-width: 580px;
-    }
-
-    .exper_techStack_list {
-        grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
     }
 }
 
@@ -596,36 +545,11 @@ a {
     .div_4 {
         font-size: 16px;
     }
-
-    .exper_techStack_list {
-        grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
-    }
 }
 
 @media screen and (max-width: 480px) {
     main {
         padding: 0 12px;
-    }
-
-    .exper_techStack_list {
-        gap: 10px;
-        grid-template-columns: repeat(auto-fill, minmax(30px, 1fr));
-    }
-
-    .social_media_wrap {
-        position: static;
-        margin-top: 40px;
-    }
-
-    .social_media_wrap ul {
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        gap: 14px;
-    }
-
-    .social_media_wrap ul::after {
-        display: none;
     }
 
     #gradient_bg_screen {
