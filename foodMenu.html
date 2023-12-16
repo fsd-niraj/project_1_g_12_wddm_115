@@ -126,7 +126,7 @@
 					li.appendChild(itemInfo);
 					li.appendChild(itemPrice);
 					checkoutList.appendChild(li);
-				}else{
+				} else {
 					const checkoutBtn = document.getElementById("checkoutBtn")
 					checkoutBtn.ariaDisabled = true
 				}
@@ -187,6 +187,10 @@
 				updateCheckout();
 			})
 			.catch(error => console.error('Error fetching data:', error));
+
+		document.getElementById('checkoutBtn').addEventListener('click', function () {
+			window.location.href = 'placeorder.html';
+		});
 
 	</script>
 </body>
