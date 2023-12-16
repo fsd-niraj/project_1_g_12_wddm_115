@@ -40,6 +40,155 @@
 		</main>
 	</div>
 
+	<script>
+		function updateLocalStorage(name, price, cuisine, quantity) {
+			const selectedItem = {
+				name: name,
+				price: price,
+				cuisine: cuisine,
+				quantity: quantity
+			};
+			localStorage.setItem(name, JSON.stringify(selectedItem));
+		}
+
+		function createQuantityControl(li, item) {
+			const quantityControl = document.createElement('div');
+			quantityControl.classList.add('d-flex');
+
+			const plusButton = document.createElement('button');
+			plusButton.classList.add('btn', 'btn-sm', 'btn-primary');
+			plusButton.textContent = '+';
+
+			const minusButton = document.createElement('button');
+			minusButton.classList.add('btn', 'btn-sm', 'btn-danger');
+			minusButton.textContent = '-';
+
+			const quantityNumber = document.createElement('div');
+			quantityNumber.classList.add('mx-2');
+			quantityNumber.textContent = '0';
+
+			plusButton.addEventListener('click', function () {
+				const currentQuantity = parseInt(quantityNumber.textContent);
+				quantityNumber.textContent = currentQuantity + 1;
+				updateLocalStorage(li.dataset.name, item.price, item.cuisine, quantityNumber.textContent);
+				updateCheckout();
+			});
+
+			minusButton.addEventListener('click', function () {
+				const currentQuantity = parseInt(quantityNumber.textContent);
+				if (currentQuantity > 0) {
+					quantityNumber.textContent = currentQuantity - 1;
+					updateLocalStorage(li.dataset.name, item.price, item.cuisine, quantityNumber.textContent);
+					updateCheckout();
+				}
+			});
+
+			quantityControl.appendChild(minusButton);
+			quantityControl.appendChild(quantityNumber);
+			quantityControl.appendChild(plusButton);
+
+			return quantityControl;
+		}
+
+		function updateCheckout() {
+			const checkoutList = document.getElementById('checkoutList');
+			checkoutList.innerHTML = '';
+
+			let totalItems = 0;
+			let totalPrice = 0;
+
+			for (let i = 0; i < localStorage.length; i++) {
+				const key = localStorage.key(i);
+				const selectedItem = JSON.parse(localStorage.getItem(key));
+
+				if (selectedItem.quantity > 0) {
+					totalItems += parseInt(selectedItem.quantity);
+
+					const li = document.createElement('li');
+					li.classList.add('list-group-item', 'd-flex', 'justify-content-between', 'lh-sm');
+					const itemInfo = document.createElement('div');
+					itemInfo.classList.add("d-flex")
+					const itemName = document.createElement('h6');
+					itemName.classList.add('my-0', 'me-2');
+					itemName.textContent = selectedItem.name;
+					const quantityNumber = document.createElement('div');
+					quantityNumber.classList.add('quantity-number');
+					quantityNumber.textContent = "x" + selectedItem.quantity;
+					itemInfo.appendChild(itemName);
+					itemInfo.appendChild(quantityNumber);
+
+					const itemPrice = document.createElement('span');
+					itemPrice.classList.add('text-body-secondary');
+					const itemTotalPrice = selectedItem.price * selectedItem.quantity;
+					itemPrice.textContent = `$${itemTotalPrice}`;
+					totalPrice += itemTotalPrice;
+
+					li.appendChild(itemInfo);
+					li.appendChild(itemPrice);
+					checkoutList.appendChild(li);
+				}else{
+					const checkoutBtn = document.getElementById("checkoutBtn")
+					checkoutBtn.ariaDisabled = true
+				}
+			}
+
+			const totalLi = document.createElement('li');
+			const totalSpan = document.createElement('span');
+			const totalStrong = document.createElement('strong');
+			totalLi.classList.add('list-group-item', 'd-flex', 'justify-content-between');
+			totalLi.appendChild(totalSpan)
+			totalLi.appendChild(totalStrong)
+			totalSpan.textContent = "Total (CAD)";
+			totalStrong.textContent = "$" + totalPrice;
+			checkoutList.appendChild(totalLi);
+
+			document.getElementById('cartItemCount').textContent = totalItems.toString();
+		}
+
+		const urlParams = new URLSearchParams(window.location.search);
+		const cuisine = urlParams.get('cuisine');
+
+		fetch('data.json')
+			.then(response => response.json())
+			.then(data => data.newCuisines.find(c => c.name.toLowerCase() === cuisine.toLowerCase()))
+			.then(cuisineData => {
+				document.getElementById("cuisineName").textContent = cuisine.split('')[0].toUpperCase() + cuisine.slice(1, cuisine.length) + " Cusine";
+				document.title = cuisine.split('')[0].toUpperCase() + cuisine.slice(1, cuisine.length) + " Menu";
+				const foodList = document.getElementById('foodList');
+
+				cuisineData.signatureDishes.forEach(item => {
+					const li = document.createElement('li');
+					li.classList.add('list-group-item', 'd-flex', 'justify-content-between', 'lh-sm', 'align-items-center', 'animate-on-scroll');
+					li.dataset.name = item.name;
+					li.dataset.price = item.price;
+					li.dataset.cuisine = cuisine;
+
+					const quantityControl = createQuantityControl(li, item);
+
+					const itemInfo = document.createElement('div');
+					const itemName = document.createElement('h6');
+					itemName.classList.add('my-0');
+					itemName.textContent = item.name;
+
+					itemInfo.appendChild(itemName);
+
+					const itemPrice = document.createElement('span');
+					itemPrice.classList.add('text-body-secondary');
+					itemPrice.textContent = `$${item.price}`;
+
+					li.appendChild(itemInfo);
+					li.appendChild(itemPrice);
+					li.appendChild(quantityControl);
+					foodList.appendChild(li);
+
+					updateLocalStorage(li.dataset.name, item.price, cuisine, '0');
+				});
+
+				updateCheckout();
+			})
+			.catch(error => console.error('Error fetching data:', error));
+
+	</script>
 </body>
 
 </html>
