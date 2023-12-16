@@ -19,7 +19,27 @@
 </head>
 
 <body>
-	
+	<div class="container">
+		<main class="animate-on-scroll">
+			<div class="row g-5 py-5">
+				<div class="col-md-5 col-lg-4 order-md-last">
+					<h4 class="d-flex justify-content-between align-items-center mb-3">
+						<span class="text-primary animate-on-scroll">Your cart</span>
+						<span class="badge bg-primary rounded-pill animate-on-scroll" id="cartItemCount">0</span>
+					</h4>
+
+					<ul class="list-group mb-3" id="checkoutList"></ul>
+					<button class="btn btn-primary w-100" id="checkoutBtn">Go to Checkout</button>
+
+				</div>
+				<div class="col-md-7 col-lg-8">
+					<h1 class="mb-2" id="cuisineName">Italian Cuisine</h1>
+					<ul class="list-group mb-3" id="foodList"></ul>
+				</div>
+			</div>
+		</main>
+	</div>
+
 </body>
 
 </html>
