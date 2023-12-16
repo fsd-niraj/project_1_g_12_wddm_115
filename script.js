@@ -112,9 +112,30 @@ function navbarToggle() {
   });
 }
 
+function displayNavLinks(){
+  const navbar = document.getElementById("navbar");
+  const ul = document.createElement("ul")
+  ul.classList.add('nav-links')
+  fetch('data.json')
+  .then((res)=> res.json())
+  .then((res)=> {
+    const navData = res.navLinks;
+    for (let i = 0; i < navData.length; i++) {
+      const li = document.createElement("li")
+      const anchr = document.createElement("a")
+      anchr.textContent = navData[i].title;
+      anchr.href = navData[i].href;
+      li.appendChild(anchr)
+      ul.appendChild(li)
+    }
+    return navbar?.appendChild(ul)
+  })
+}
+
 document.addEventListener("DOMContentLoaded", function () {
   globalGradientBg();
   navbarToggle();
+  displayNavLinks();
 });
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -131,33 +152,22 @@ document.addEventListener('DOMContentLoaded', function () {
           data.target.style.transform = 'translateY(20px) scale(0.95)';
         }
       });
-    }, { threshold: 0.5 });
+    }, { threshold: 0.25 });
     elementsToAnimate.forEach(element => {
       observer.observe(element);
     });
   }, 200)
-
-  const searchInput = document.getElementById('searchInput');
-  const searchLabel = document.querySelector('.search-label');
-
-  searchInput.addEventListener('focus', function () {
-    searchLabel.classList.add('focused');
-  });
-
-  searchInput.addEventListener('blur', function () {
-    if (searchInput.value === '') {
-      searchLabel.classList.remove('focused');
-    }
-  });
-
-  searchInput.addEventListener('input', function () {
-    if (searchInput.value !== '') {
-      searchLabel.classList.add('focused');
-    } else {
-      searchLabel.classList.remove('focused');
-    }
-  });
-
-
 });
 
+function placeOrder() {
+  const firstName = document.getElementById('fname').value;
+  const lastName = document.getElementById('lname').value;
+  const address = document.getElementById('address').value;
+
+  const orderMessage = `${firstName} ${lastName}'s order:<br>Address: ${address}`;
+  
+  const orderDetails = document.getElementById('orderDetails');
+  orderDetails.innerHTML = orderMessage;
+  
+  window.location.href = `confirmation.html?name=${firstName}`;
+}
